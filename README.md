@@ -33,40 +33,58 @@ Job seeker: [figma-job seeker](https://www.figma.com/file/bSVDkRqbryoEFuZGzGXG8v
 URL: [canva link](https://www.canva.com/design/DAFuIerps88/OU0CPTI1rU1SGJOjQjHFrA/edit?utm_content=DAFuIerps88&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
 ## My Role
-* Service & Controller
-  * Job sekeer profile class
-     *  addJobProfile
-     * updateJobProfile
-     * getProfileById
-     * getReusmeById
-  * Job Application class
-     * addJobApplication
-     * getJobApplication
-     * rejectApplicationsByJobProvider
-     * rejectApplicationsByJobSeeker
-     * processApplications
-     * GetApplicationsBySeekerId
-     * countApplicationsByStatusAndSeekerId
-     * updateJobApplicationStatus
-  * Job class
-     * addJob
-     * getJobs
-     * updateJobs
-     * StopReceivingApplications
-     * getJobByStatus
-     * getJobByProviderID
-     * getJobBySector
-     * updateJobStatus
-* Model
-     * Job Seeker Profile
-     * Job Application 
-     * Job
-* Relationships
-     * one to one (job seeker and job seeker profile)
-     * one to many (job seeker and job application)
-     * one to many (job and job application)
-     * one to many (job provoder and job)
-* Security
-     * Applied Security Authority for all my functions
+*Functions:
+•	get-job-by-salary
+•	get-job-by-job-name
+•	get-job-by-job-id
+•	get-jobs-by-city
+•	get-job-by-end-date
+•	count-Jobs
+•	count-job-by-salary
+•	count-job-by-name
+•	count-job-by-city
+•	count-job-by-endDate
+•	getChatMessage
+•	add-Recommendation
+•	get-recommendations
+•	upload-certificates
+•	get-certificate
+•	download-Certificates
+
+*Modls:
+•	ChatMessagePrompot
+•	 FileUtils
+•	Certificates
+•	Recommendations
+•	RecommendationsDTO
+
+*Relations
+one to one (certificate and job Application)
+one to one (Recommendations and job Application)
+
+*Repository
+•	Certificates Repository
+•	Recommendation Repository
+
+*Job Repository:
+•	findJobBySalary 
+•	getJobByJobId
+•	findJobByJobName   
+•	findJobByCity 
+•	 findJobByEndDate
+•	long count();
+
+*Test:
+•	JobApplicationServiceTest
+•	JobServiceTest
+•	RecommendationServiceTest
+
+*Security
+
+•	Applied Security Authority and Authentication for all my functions.
+
+
+
+
 
 
