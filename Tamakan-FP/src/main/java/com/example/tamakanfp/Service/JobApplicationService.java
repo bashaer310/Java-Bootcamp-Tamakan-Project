@@ -38,7 +38,7 @@ public class JobApplicationService {
         List<JobApplication> seekerJobApplication=jobApplicationRepository.findJobApplicationByJobSeeker(jobApplication.getJobSeeker());
         for (JobApplication app:seekerJobApplication) {
             if (jobApplication.getJob().getStartDate().isAfter(app.getJob().getEndDate())&&app.getStatus().equals("accepted"))
-                throw new ApiException("");
+                throw new ApiException("Can't apply the job");
 
         }
 
