@@ -10,17 +10,17 @@ Tamakan is an extensive platform developed specifically to assist students get r
 * Job alerts: Tamakan will send job alerts to the students' email addresses who are matched with the job criteria. This ensures that students are always up-to-date on the latest job openings and that they have the opportunity to apply for jobs that are a good fit for their skills and interests.
 
 ## Class Digram
-![PTJMS (9)](https://github.com/bashaer310/Java-Bootcamp-Tamakan-Project/assets/110439978/ee77ecb8-3bc6-436f-968a-f6d5fced2074)
+![268192415-ee77ecb8-3bc6-436f-968a-f6d5fced2074](https://github.com/user-attachments/assets/0db2e32d-ed0e-4dfc-8f79-8160ecc77038)
 
 ## Use Case Digrams
 *  Job seeker
-![PTJMS (8)](https://github.com/bashaer310/Java-Bootcamp-Tamakan-Project/assets/110439978/6eeef3e9-5a5c-49d1-89e2-099c5a948437)
+![268192343-6eeef3e9-5a5c-49d1-89e2-099c5a948437](https://github.com/user-attachments/assets/a664274d-c61d-4886-8b3d-b523d83315bd)
 > 
 * Job provider
-![PTJMS (7)](https://github.com/bashaer310/Java-Bootcamp-Tamakan-Project/assets/110439978/c9c4c428-6cab-4ca8-808e-59327ef494f3)
+![268192254-c9c4c428-6cab-4ca8-808e-59327ef494f3](https://github.com/user-attachments/assets/84328e4f-5405-4f09-aa27-199525fc799c)
 
 ## API Documentation
-![267152126-5029d072-9ff3-4e4d-b089-483f3b1cd603](https://github.com/bashaer310/Java-Bootcamp-Tamakan-Project/assets/110439978/99b077ca-d70a-41ae-9d6f-9585476d0602)
+![268192200-99b077ca-d70a-41ae-9d6f-9585476d0602](https://github.com/user-attachments/assets/743d9be0-adbb-4ac2-9e8d-1a20fb972903)
 > 
 URL: [Post man](https://documenter.getpostman.com/view/28987531/2s9YC2zDDy)
 
